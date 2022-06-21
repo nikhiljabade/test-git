@@ -3,5 +3,6 @@ public class LoadConfig {
         Properties prop = new Properties();
         prop.load(App.class.getClassLoader().getResourceAsStream("./resources/config.properties"));
         System.out.println(prop.getProperty("user"));
+        System.out.println(prop.getProperty("Added new chamges for new enahncement"));
     }
 }
